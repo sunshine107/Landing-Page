@@ -30,11 +30,7 @@ change *index.php* to *index.html* and double click it.
 
 ## Live Demo
 
-Sorry, Still not deployed, It will come soon.
-
-Click *DEMO*, still not working
-
-[DEMO](https://spendo.herokuapp.com/)
+Click [*DEMO*](https://spendo.herokuapp.com/) to see live site.
 
 ---
 
