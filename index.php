@@ -177,7 +177,7 @@
                     <!-- slider -->
                     <div class="quote-body mslider fade">
                         <div class="icon-wrapper center">
-                            <img src="../landing_page/assets/img/teslr-logo.svg" width="275px" height="100px" alt="" class="logo-wrap1">
+                            <img src="./assets/img/teslr-logo.svg" width="275px" height="100px" alt="" class="logo-wrap1">
                         </div>
                         <div class="quote center">
                             <div class="quote-container">
@@ -192,7 +192,7 @@
                     <!-- slider -->
                     <div class="quote-body mslider fade">
                         <div class="icon-wrapper center">
-                            <img src="../landing_page/assets/img/lya-logo.svg" width="141px" height="100px" alt="" class="logo-wrap2">
+                            <img src="./assets/img/lya-logo.svg" width="141px" height="100px" alt="" class="logo-wrap2">
                         </div>
                         <div class="quote center">
                             <div class="quote-container">
@@ -207,7 +207,7 @@
                     <!-- slider -->
                     <div class="quote-body mslider fade">
                         <div class="icon-wrapper center">
-                            <img src="../landing_page/assets/img/google-logo.svg" width="305px" height="100px" alt="" class="logo-wrap3">
+                            <img src="./assets/img/google-logo.svg" width="305px" height="100px" alt="" class="logo-wrap3">
                         </div>
                         <div class="quote center">
                             <div class="quote-container">
@@ -222,7 +222,7 @@
                     <!-- slider -->
                     <div class="quote-body mslider fade">
                         <div class="icon-wrapper center">
-                            <img src="../landing_page/assets/img/udemy-logo.svg" width="345px" height="100px" alt="" class="logo-wrap4">
+                            <img src="./assets/img/udemy-logo.svg" width="345px" height="100px" alt="" class="logo-wrap4">
                         </div>
                         <div class="quote center">
                             <div class="quote-container">
@@ -237,7 +237,7 @@
                     <!-- slider -->
                     <div class="quote-body mslider fade">
                         <div class="icon-wrapper center">
-                            <img src="../landing_page/assets/img/fedex-logo.svg" width="310px" height="100px" alt="" class="logo-wrap5">
+                            <img src="./assets/img/fedex-logo.svg" width="310px" height="100px" alt="" class="logo-wrap5">
                         </div>
                         <div class="quote center">
                             <div class="quote-container">
@@ -250,27 +250,27 @@
                         </div>
                     </div>
                     <div class="arrow left center" onclick="plusSlides(-1)">
-                        <img src="../landing_page/assets/img/left-arrow.svg" width="10px" height="14px" alt="">
+                        <img src="./assets/img/left-arrow.svg" width="10px" height="14px" alt="">
                     </div>
                     <div class="arrow right center" onclick="plusSlides(1)">
-                        <img src="../landing_page/assets/img/right-arrow.svg" width="10px" height="14px" alt="">
+                        <img src="./assets/img/right-arrow.svg" width="10px" height="14px" alt="">
                     </div>
                 </div>
                 <div class="container logo-group-wrapper">
                     <div class="logo-group-item dot">
-                        <img src="../landing_page/assets/img/teslr-logo.svg" onclick="currentSlide(1)" width="110px" height="40px" alt="" class="logo-list1">
+                        <img src="./assets/img/teslr-logo.svg" onclick="currentSlide(1)" width="110px" height="40px" alt="" class="logo-list1">
                     </div>
                     <div class="logo-group-item dot">
-                        <img src="../landing_page/assets/img/lya-logo.svg" onclick="currentSlide(2)" width="56px" height="40px" alt="" class="logo-list2">
+                        <img src="./assets/img/lya-logo.svg" onclick="currentSlide(2)" width="56px" height="40px" alt="" class="logo-list2">
                     </div>
                     <div class="logo-group-item dot">
-                        <img src="../landing_page/assets/img/google-logo.svg" onclick="currentSlide(3)" width="122px" height="40px" alt="" class="logo-list3">
+                        <img src="./assets/img/google-logo.svg" onclick="currentSlide(3)" width="122px" height="40px" alt="" class="logo-list3">
                     </div>
                     <div class="logo-group-item dot">
-                        <img src="../landing_page/assets/img/udemy-logo.svg" onclick="currentSlide(4)" width="138px" height="40px" alt="" class="logo-list4">
+                        <img src="./assets/img/udemy-logo.svg" onclick="currentSlide(4)" width="138px" height="40px" alt="" class="logo-list4">
                     </div>
                     <div class="logo-group-item dot" id="pricing">
-                        <img src="../landing_page/assets/img/fedex-logo.svg" onclick="currentSlide(5)" width="124px" height="40px" alt="" class="logo-list5">
+                        <img src="./assets/img/fedex-logo.svg" onclick="currentSlide(5)" width="124px" height="40px" alt="" class="logo-list5">
                     </div>
                 </div>
             </div>
