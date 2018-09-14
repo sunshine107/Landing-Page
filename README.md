@@ -34,4 +34,4 @@ Don't click *DEMO*, still not working
 
 ## Design
 
-![landing page](https://bitbucket.org/Spendo_Landing_Page/spendo_landing_page/raw/0b1ae8269fb38f15cdbe5f950fff950b9dcf8ef1/assets/img/home.png)
+![landing page](https://github.com/denisp107/Spendo-Landing-Page/blob/master/assets/img/home.png?raw=true)
