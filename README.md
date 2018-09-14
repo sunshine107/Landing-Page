@@ -1,4 +1,4 @@
-# Code Landing Page with HTML5 and CSS3 only#
+# Code Landing Page with HTML5 and CSS3 only
 
 ---
 
@@ -10,7 +10,7 @@ This is consist of one html file, one css file and some resource files.
 
 ---
 
-## Requirment
+## Requirement
 
 *I have a landing page Sketch file that I would like converted to HTML5 and CSS3. It is important that the code is completely optimized for modern coding and uses the new CSS Grid System. It is also important that only CSS and HTML are being used. No external Frameworks. Everything should be niceley organized, coded for readability, and include many many comments. Only 3 files should be needed, index.html, style.css, and an images folder. Image of page attached.It also needs to be coded to naturally be responsive.*
 
