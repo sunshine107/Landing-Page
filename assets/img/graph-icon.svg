@@ -1,0 +1,20 @@
+<svg id="Graph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87 115">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(74,144,226,0.5);
+      }
+
+      .cls-2 {
+        fill: rgba(74,144,226,0.75);
+      }
+
+      .cls-3 {
+        fill: #4a90e2;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-1" width="22.895" height="57.5" rx="4.6" transform="translate(0 57.5)"/>
+  <rect id="Rectangle_5_Copy" data-name="Rectangle 5 Copy" class="cls-2" width="22.895" height="86.25" rx="4.6" transform="translate(32.053 28.75)"/>
+  <rect id="Rectangle_5_Copy_2" data-name="Rectangle 5 Copy 2" class="cls-3" width="22.895" height="115" rx="4.6" transform="translate(64.105)"/>
+</svg>

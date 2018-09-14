@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7755fe;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-118 -72)">
+    <ellipse id="Oval_4" data-name="Oval 4" class="cls-1" cx="8.5" cy="7.5" rx="8.5" ry="7.5" transform="translate(118 72)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-1" d="M0,0,3.5,7l2-7Z" transform="translate(126.5 84)"/>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<svg id="Icon_32px_Alarm" data-name="Icon / 32px / Alarm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #76ce44;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-8 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip);
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-2);
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+    <clipPath id="clip-2">
+      <use xlink:href="#fill-2"/>
+    </clipPath>
+  </defs>
+  <g id="AlarmIcon">
+    <rect id="Icon_BG_Copy_2" data-name="Icon BG Copy 2" class="cls-1" width="32" height="32" rx="10"/>
+    <g id="Alarm" transform="translate(7 7)">
+      <g id="Oval" class="cls-2" transform="translate(0.3 0.3)">
+        <circle class="cls-4" cx="8.7" cy="8.7" r="8.7"/>
+        <circle class="cls-5" cx="8.7" cy="8.7" r="7.95"/>
+      </g>
+      <g id="Rectangle_2" data-name="Rectangle 2" class="cls-2" transform="translate(3.223 0.041) rotate(45)">
+        <rect id="fill" class="cls-4" width="0.9" height="4.5" rx="0.45"/>
+        <path class="cls-6" d="M0,0.75h0.8999999761581421M0.75,0v4.5M0.8999999761581421,3.75h-0.8999999761581421M0.1499999761581421,4.5v-4.5"/>
+      </g>
+      <g id="Rectangle_2_Copy" data-name="Rectangle 2 Copy" class="cls-2" transform="translate(14.141 0.677) rotate(-45)">
+        <rect id="fill-2" class="cls-4" width="0.9" height="4.5" rx="0.45"/>
+        <path class="cls-7" d="M0,0.75h0.8999999761581421M0.75,0v4.5M0.8999999761581421,3.75h-0.8999999761581421M0.1499999761581421,4.5v-4.5"/>
+      </g>
+      <g id="Combined_Shape" data-name="Combined Shape" class="cls-3" transform="translate(8.1 5.7)">
+        <path class="cls-4" d="M.45,4.65a.45.45,0,0,1-.444-.525A.452.452,0,0,1,0,4.05V.45a.45.45,0,0,1,.9,0v3.3H3.15a.45.45,0,1,1,0,.9Z"/>
+        <path class="cls-8" d="M 3.150000095367432 4.650300025939941 L 0.4500000774860382 4.650300025939941 C 0.2016000747680664 4.650300025939941 7.152557657263969e-08 4.448699951171875 7.152557657263969e-08 4.200300216674805 C 7.152557657263969e-08 4.174690246582031 0.002170071471482515 4.149590015411377 0.00629007164388895 4.125150203704834 C 0.002170071471482515 4.100699901580811 7.152557657263969e-08 4.075610160827637 7.152557657263969e-08 4.050000190734863 L 7.152557657263969e-08 0.4500000178813934 C 7.152557657263969e-08 0.2016000151634216 0.2016000747680664 1.296996998689792e-08 0.4500000774860382 1.296996998689792e-08 C 0.69840008020401 1.296996998689792e-08 0.9000000953674316 0.2016000151634216 0.9000000953674316 0.4500000178813934 L 0.9000000953674316 3.75029993057251 L 3.150000095367432 3.75029993057251 C 3.398400068283081 3.75029993057251 3.600000143051147 3.951900005340576 3.600000143051147 4.200300216674805 C 3.600000143051147 4.448699951171875 3.398400068283081 4.650300025939941 3.150000095367432 4.650300025939941 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

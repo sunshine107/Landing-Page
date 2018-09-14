@@ -1,0 +1,766 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+@font-face{
+    font-family: "open sans";
+    src: url('../font/OpenSans-Light.ttf')
+}
+*{
+    font-family: "open sans";
+    outline: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;   
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notouch{
+    user-select: none;
+}
+.main-wrapper{
+    overflow: hidden;
+}
+.header-wrapper{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    color: white;
+    background-image: linear-gradient(135deg, #3023ae 0%, #5b38b9 23%, #6e41bf 44%, #c86dd7 100%);
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+.active{
+    color: white;
+    font-weight: 600;
+} 
+
+.logo{
+    position: fixed;
+    left: 10%;
+    top: 28px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+nav ul{
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+nav.black ul{
+    background: #5828e8;
+}
+nav ul li{
+    display: inline-block;
+    padding: 28px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu-icon{
+    width: 100%;
+    background: #5828e8;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 22px 24px;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
+.login-button{
+    position: fixed;
+    top: 20px;
+    right: 5%;
+}
+.btn{
+    font-size: 16px;
+    padding: 8px 16px;
+    color: rgba(255, 255, 255, 0.75);
+    border-radius: 2px;
+    border-width: 0;
+    background-color: transparent;
+}
+.btn-space{
+    margin-right: 20px;
+}
+.btn-active{
+    background-color: #ffffff2b;
+}
+.header-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+.header-body-wrapper{
+    max-width: 550px;
+    margin: auto;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.free-badge-wrapper{
+    margin: 50px auto 50px auto;
+}
+.free-badge{
+    padding: 4px 40px;
+    border-radius: 24px;
+    background-color: #ffffff2b;
+    margin-bottom: 50px;
+    color: #caa3ff;
+    font-size: 16px;
+}
+.title-wrapper{
+    font-size: 38px;
+}
+.discription-wrapper{
+    font-size: 15px;
+    line-height: 24px;
+}
+.btn-color{
+    /* Style for "Rectangle" */
+    border-width: 0;
+    width: 238px;
+    height: 56px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    background-image: linear-gradient(47deg, #745ffa 0%, #e994f7 100%);
+    font-size: 14px;
+    color: white;
+}
+.m-50{
+    margin-bottom: 50px;
+}
+.space{
+    margin-right: 70px;
+}
+.mobile-bg{
+    position: absolute;
+    background-image: url(../img/mobile.svg);
+    width: 180px;
+    height: 363px;
+    right: 589.89px;
+    top: 564px;
+    background-size: cover;
+    transform: rotate(323deg);
+}
+.visa-bg{
+    position: absolute;
+    background-image: url(../img/visa_card.svg);
+    width: 275px;
+    height: 173.92px;
+    right: 450px;
+    top: 327px;
+    background-size: cover;
+    transform: rotate(323deg);
+}
+.person-bg{
+    position: absolute;
+    background-image: url(../img/person_card.svg);
+    width: 240px;
+    height: 203.92px;
+    right: 260px;
+    top: 126px;
+    background-size: cover;
+    transform: rotate(323deg);
+}
+.desktop-bg{
+    position: absolute;
+    background-image: url(../img/desktop.svg);
+    width: 850px;
+    height: 580px;
+    right: -330px;
+    top: 290px;
+    background-size: cover;
+    transform: rotate(323deg);
+}
+.banking-wrapper{
+    z-index: 1;
+    background-color: white;
+    position: relative;
+    padding-bottom: 70px;
+}
+.banking{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 90px;
+    grid-column-gap: 35px;
+    grid-row-gap: 55px;
+}
+.banking-letter{
+    grid-column: 1/4;
+}
+.container-banking{
+    max-width: 710px;
+    margin: auto;
+    text-align: center;
+}
+.title{
+    font-size: 38px;
+    letter-spacing: 0.75px;
+    line-height: 56px;
+    color: #404e5b;
+    margin-bottom: 20px; 
+}
+.description{
+    color: #828792;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    margin-bottom: 30px;
+}
+.box-title{
+    display: flex;
+    align-items: center;
+}
+.service-icon{
+    display: flex;
+    margin-right: 25px;
+}
+.service-name{
+    color: #404e5b;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    /* Text style for "User Frien" */
+    letter-spacing: 0.75px;
+}
+.box-content{
+    padding-left: 58px;
+    padding-top: 14px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: #828792;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+}
+.custom-wrapper{
+    margin-bottom: 70px;
+}
+.custom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+    grid-auto-rows: minmax(300px, auto);
+}
+.up-letter{
+    color: #a38cfb;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    margin-top: 40px;
+}
+.custom-title{
+    color: #404e5b;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.custom-description{
+    color: #828792;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.75px;
+}
+.card-group-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.card-group{
+    width: 100%;
+    height: auto;
+    max-width: 407px;
+}
+.list-group{
+    width: 100%;
+    height: auto;
+    max-width: 407px;
+}
+.content-wrapper{
+    
+}
+.customer-haeder{
+    text-align: center;
+}
+.customer-header-title{
+    margin-top: 100px;
+}
+.customer-header-description{
+    margin-bottom: 60px;
+}
+.quote-wrapper{
+    position: relative;
+    box-shadow: 3px 9px 43px #d6d4d4d1;
+    margin-bottom: 55px;
+}
+.quote-body{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-columns: 280px;
+}
+.icon-wrapper{
+    background-color: #ffe6ed;
+    height: 260px;
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+}
+.quote{
+    
+}
+.quote-container{
+    max-width: 600px;
+    width: 80%;
+}
+.quote-content{
+    color: #32325d;
+    /* font-family: "Open Sans"; */
+    font-size: 22px;
+    line-height: 40px;
+    /* Text style for "“Spendo ha" */
+    letter-spacing: 0.75px;
+    margin-bottom: 40px;
+}
+.customer-name{
+    color: #32325d;
+    /* font-family: "Open Sans Semibold"; */
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    /* Text style for "-Andrew Ja" */
+    letter-spacing: 0.75px;
+    margin-bottom: 3px;
+}
+.customer-job{
+    color: #86978a;
+    /* font-family: "Open Sans"; */
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    /* Text style for "CFO" */
+    letter-spacing: 0.67px;
+}
+.arrow{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.left{
+    top: 50%;
+    left: -24px;
+    transform: translateY(-50%);
+}
+.right{
+    top: 50%;
+    right: -24px;
+    transform: translateY(-50%);
+}
+.logo-group-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.logo-group-item{
+    margin: 4px;
+}
+.help-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    margin-bottom: 80px;
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    box-shadow: 0 -12px 22px rgba(82, 87, 104, 0.05), 0 12px 22px rgba(82, 87, 104, 0.1);
+    border-radius: 3px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.pricing-card{
+    margin-left: -30px;
+}
+.graph-card{
+    margin-left: -11px;
+}
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+.card-title1{
+    color: #7755fe;
+    /* font-family: "Open Sans Semibold"; */
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* Text style for "See Our pl" */
+    letter-spacing: 0.75px
+}
+.card-title2{
+    color: #4a90e2;
+    /* font-family: "Open Sans Semibold"; */
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* Text style for "Read our c" */
+    letter-spacing: 0.75px
+}
+.card-description{
+    color: #828792;
+    /* font-family: "Open Sans Light"; */
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    /* Text style for "We have a" */
+    letter-spacing: 0.75px;
+    margin-top: 15px;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    margin-bottom: 80px;
+}
+.title-up{
+    color: #7755fe;
+    /* font-family: "Open Sans"; */
+    font-size: 30px;
+    /* Text style for "Are you re" */
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.title-down{
+    color: #32325d;
+    font-family: "Open Sans";
+    font-size: 30px;
+    /* Text style for "All plans" */
+    letter-spacing: 1.5px;
+}
+.try-free{
+    padding: 11px 45px;
+    color: #ffffff;
+    /* font-family: "Open Sans Semibold"; */
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* Text style for "Try free n" */
+    letter-spacing: 1.5px;
+    background-image: linear-gradient(62deg, #7755fe 0%, #e994f7 100%);
+    border-radius: 5px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+    border: 0;
+}
+.contact-sales{
+    border-width: 0;
+    padding: 11px 45px;
+    color: #7755fe;
+    /* font-family: "Open Sans Semibold"; */
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* Text style for "Contact Sa" */
+    letter-spacing: 1.5px;
+    box-shadow: 0 5px 12px rgba(82, 87, 104, 0.1);
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+}
+.spliter{
+    background-color: gray;
+    height: 1px;
+    widows: 100%;
+}
+.footer-wrapper{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 1px solid #e7edf2;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 50% 15% 15% 20%;
+    grid-column-gap: 15px;
+}
+.message-icon{
+}
+.language-wrapper{
+    display: flex;
+    align-items: flex-start;
+}
+.selected-language{
+    color: #7755fe;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.footer-item-wrapper{
+    display: grid;
+    grid-template-rows: 1.2fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-title{
+    color: #3c4954;
+    /* font-family: "Open Sans Semibold"; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    /* Text style for "Resources" */
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.footer-item-wrapper a{
+    color: #869aab;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+.logo-list1{
+    max-width: 110px;
+    width: 100%;
+    height: auto;
+}
+.logo-list2{
+    max-width: 56px;
+    width: 100%;
+    height: auto;
+}
+.logo-list3{
+    max-width: 122px;
+    width: 100%;
+    height: auto;
+}
+.logo-list4{
+    max-width: 138px;
+    width: 100%;
+    height: auto;
+}
+.logo-list5{
+    max-width: 124px;
+    width: 100%;
+    height: auto;
+}
+.logo-wrap1{
+    max-width: 275px;
+    width: 60%;
+    height: auto;
+}
+.logo-wrap2{
+    max-width: 141px;
+    width: 60%;
+    height: auto;
+}
+.logo-wrap3{
+    max-width: 305px;
+    width: 60%;
+    height: auto;
+}
+.logo-wrap4{
+    max-width: 345px;
+    width: 60%;
+    height: auto;
+}
+.logo-wrap5{
+    max-width: 310px;
+    width: 60%;
+    height: auto;
+}
+.copyright{
+    color: gray;
+    font-size: 14px;
+}
+.dot-active{
+    transform: scale(1.2);
+}
+.dot{
+    transition: 0.4s;
+}
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@media(max-width: 1140px){
+    .custom{
+        grid-template-columns: 1fr;
+    }
+    .order1{
+        grid-row: 2/3;
+    }
+    .order2{
+        grid-row: 1/2;
+    }
+    .contact-wrapper{
+        display: block;
+    }
+    .contact-title{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .help-wrapper{
+        display: block;
+    }
+
+}
+
+@media(max-width: 900px){
+    .logo{
+        position: fixed;
+        top: 0;
+        margin-top: 28px;
+    }
+    nav ul{
+        max-height: 0px;
+        background: #5828e8;
+    }
+    nav.black ul{
+        background: #5828e8;
+    }
+    .showing{
+        max-height: 22em;
+    }
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+    .menu-icon{
+        display: block;
+        fill: white;
+    }
+    .btn{
+        margin-bottom: 15px; 
+        margin-top: 20px;
+    }
+    .login-button{
+        position: relative !important;
+        top:auto !important;
+        right: auto !important;
+    }
+    .header-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-bg, .visa-bg, .person-bg, .desktop-bg{
+        display: none;
+    }
+    .title-wrapper{
+        text-align: center;
+    }
+    .banking{
+        grid-template-columns: 1fr 1fr;
+    }
+    .banking-letter{
+        grid-column: 1/3;
+    }
+    
+    .mslider {
+        display: none
+    }
+    .icon-wrapper{
+        display: none;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .language-wrapper{
+        grid-column: 1/4;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .quote-body{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    .banking{
+        grid-template-columns: 1fr;
+    }
+    .banking-letter{
+        grid-column: 1/2;
+    }
+    .btn-group{
+        flex-direction: column;
+    }
+    .try-free{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .footer{
+        display: block
+    }
+    .language-wrapper{
+        grid-column: 1/2;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .footer-item-wrapper{
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+    }
+}
