@@ -18,7 +18,13 @@ This is consist of one html file, one css file and some resource files.
 
 ## How to run
 
-Clone this repository and click *index.html*
+Clone this repository and 
+
+Move directory to Aphache root directory
+
+or
+
+change *index.php* to *index.html* and double click it.
 
 ---
 
@@ -26,9 +32,9 @@ Clone this repository and click *index.html*
 
 Sorry, Still not deployed, It will come soon.
 
-Don't click *DEMO*, still not working
+Click *DEMO*, still not working
 
-[DEMO](http://spendodemo)
+[DEMO](https://spendo.herokuapp.com/)
 
 ---
 
