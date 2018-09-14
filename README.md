@@ -18,13 +18,7 @@ This is consist of one html file, one css file and some resource files.
 
 ## How to run
 
-Clone this repository and 
-
-Move directory to Aphache root directory
-
-or
-
-change *index.php* to *index.html* and double click it.
+Clone this repository ando  and double click *index.html*.
 
 ---
 
